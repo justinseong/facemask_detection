@@ -20,3 +20,4 @@ $ python3 detect_mask_video.py
 ```
 ## :eyes: License
 MIT © [Chandrika Deb](https://github.com/chandrikadeb7/Face-Mask-Detection/blob/master/LICENSE)
+Modified by Justin Seong
