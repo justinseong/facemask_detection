@@ -125,7 +125,14 @@ while True:
 
 		# determine the class label and color we'll use to draw
 		# the bounding box and text
-		label = "Mask" if mask > withoutMask else "No Mask"
+		# label = "Mask" if mask > withoutMask else "No Mask"
+
+		if mask > withoutMask:
+			label = "Mask"
+			# skip
+		else:
+			label = "No Mask"
+			# 라즈베리파이 경보음
 		color = (0, 255, 0) if label == "Mask" else (0, 0, 255)
 
 		# include the probability in the label
